@@ -1,0 +1,29 @@
+.circle {
+  --size: 38px;
+
+  display: flex;
+  height: var(--size);
+  width: var(--size);
+  line-height: var(--size);
+
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: var(--size);
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff55;
+  margin: 0.2em;
+}
+.circle:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color-primary-dark);
+  border: 1px solid transparent;
+}
+
+@media screen and (max-width: 700px) {
+  .circle {
+    --size: 50px;
+  }
+}

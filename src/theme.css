@@ -1,0 +1,9 @@
+:root {
+  --surface-color: #303030; /* Фон областей с элементами, "поверхности", располагаемой над страницами */
+  --background-color: #121212; /* Фон страницы*/
+  --primary-color: #b3dd8a; /* Цвет элементов на странице */
+  --text-color-primary-light: white;
+  --text-color-primary-dark: #121212;
+  --text-color-secondary: #d4d4d4;
+  --color-error: #cf6679;
+}
